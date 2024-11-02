@@ -115,10 +115,7 @@ h1 {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-    .navigation {
-        display: flex;
-        align-items: center;
-    }
+  
     .nav-list {
     display: flex;
     list-style: none;
