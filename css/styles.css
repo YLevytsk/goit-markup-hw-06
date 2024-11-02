@@ -69,3 +69,14 @@ ul {
 .nav-list a {
 text-decoration: none;    
 }
+h1 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+     line-height: 1.07;
+     margin-bottom:  48px;       
+    }
