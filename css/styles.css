@@ -130,6 +130,6 @@ h1 {
     
 
 }
-.nav-list {
+.nav-list, address {
     display: none;
 }
