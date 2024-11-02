@@ -119,7 +119,7 @@ h1 {
     .nav-list {
     display: flex;
     list-style: none;
-    gap: 40px;
+   
     justify-content: space-between;
 }
 .contacts-list {
@@ -127,6 +127,6 @@ h1 {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 40px;
+    
 
 }
