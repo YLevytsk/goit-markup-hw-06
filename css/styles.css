@@ -120,6 +120,8 @@ h1 {
     .nav-list {
     display: flex;
     list-style: none;
+    align-items: center;
+    gap: 40px;
    
     justify-content: space-between;
 }
@@ -154,4 +156,13 @@ button {
         .burger-btn {
             display: none;   
         }
+    }
+
+   @media screen and (min-width: 768px) {
+     .nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+     }
     }
