@@ -60,7 +60,8 @@ ul {
 
 .logo_web {
     color: #4d5ae5;
-    margin-right: 76px;
+    padding: 16px 0;
+    display: block;
 }
 
 .logo_studio {
