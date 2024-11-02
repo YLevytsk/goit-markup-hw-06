@@ -80,3 +80,10 @@ h1 {
      line-height: 1.07;
      margin-bottom:  48px;       
     }
+    .container {
+        width: 100%;
+        max-width: 1158px; 
+        padding: 0 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
