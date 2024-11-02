@@ -156,13 +156,15 @@ button {
         .burger-btn {
             display: none;   
         }
-    }
-
-   @media screen and (min-width: 768px) {
      .nav-list {
     display: flex;
     list-style: none;
     align-items: center;
     gap: 40px;
      }
+     .contacts-list {
+        font-style: normal;
+      display: block;
+     }
+
     }
