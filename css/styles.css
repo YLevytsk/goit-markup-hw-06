@@ -132,3 +132,8 @@ h1 {
 .nav-list, address {
     display: none;
 }
+.container-header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
