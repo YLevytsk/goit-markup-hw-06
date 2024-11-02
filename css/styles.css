@@ -115,7 +115,7 @@ h1 {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-    .container container-header {
+    .header {
         display: flex;
         align-items: center;
     }
