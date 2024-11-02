@@ -172,4 +172,8 @@ button {
     justify-content: space-between;
     align-items: center;  
     }
+    .logo_web {
+        padding: 24px;
+        margin-right: 120px;
+    }
 }
