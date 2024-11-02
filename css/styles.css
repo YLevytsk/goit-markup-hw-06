@@ -142,3 +142,8 @@ justify-content: space-between;
     border: none;
     background-color: transparent;
 }
+.burger-icon {
+    display: block;
+    fill: #2F2F37;
+
+}
