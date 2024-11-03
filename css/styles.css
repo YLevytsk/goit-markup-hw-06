@@ -306,15 +306,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   flex-direction: column;
   height: 100%;
 } 
-.mobile-menu-close {
+.mobaile-menu-close {
   position: absolute;
   top: 24px;
   right: 24px;
 }
-.mobile-menu-nav {
+.mobaile-menu-nav {
   margin-bottom: auto;
 }
-.mobil-menu-close {
+.mobail-menu-close {
     position: absolute; 
      top: 24px; 
      right: 24px;
@@ -331,8 +331,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.mobil-menu-close:hover,
-.mobil-menu-close:focus {
+.mobail-menu-close:hover,
+.mobail-menu-close:focus {
     background-color:#404bbf;
     border: none; 
 }
