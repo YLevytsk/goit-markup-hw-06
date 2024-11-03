@@ -140,7 +140,9 @@ h1 {
     padding: 0;
     margin: 0;
 }
-
+.nav-list, address {
+    display: none;
+}
 .container-header {
 display: flex;
 align-items: center;
