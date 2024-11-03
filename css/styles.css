@@ -370,8 +370,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   flex-direction: column;
   font-style: normal;
   text-decoration: none;
-   gap: 24px;
+}
  
+.contact-list-item-mobil:first-child {
+    margin-bottom: 24px; /* Устанавливаем отступ снизу только для первого элемента */
 }
 .contact-list-item-mobil {
   text-decoration: none;
