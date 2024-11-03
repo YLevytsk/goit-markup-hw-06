@@ -387,6 +387,9 @@ color: #434455;
  text-decoration: none;
 }
 .contact-link-tel {
+   text-decoration: none;   
+}
+.contact-link-tel {
 font-family:  "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
