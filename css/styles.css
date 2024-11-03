@@ -247,7 +247,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 1158px) {
     .logo_web {
         margin-right: 76px;
     }
