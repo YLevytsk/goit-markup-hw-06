@@ -362,10 +362,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
 }
 .contacts-list {
-  margin: 72px 0 0 16px; /* Отступ сверху и слева */
   list-style: none; 
-  padding: 0;            /* Убирает внутренние отступы */
-  margin: 0;
   flex-direction: column;
   font-style: normal;
   text-decoration: none;
