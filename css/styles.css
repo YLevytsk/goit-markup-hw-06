@@ -608,4 +608,5 @@ color: #ffffff;
 }
 .skills-list {
     flex-wrap: wrap;
+    flex-direction: row;
 }
