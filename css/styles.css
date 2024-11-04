@@ -595,23 +595,26 @@ color: #ffffff;
     line-height: 111%;
     text-align: center;
 }
+/* Общий стиль для списка */
+.skills-list {
+    display: flex; /* Используем Flexbox */
+    flex-direction: column; /* По умолчанию элементы располагаются в столбик */
+    gap: 72px; /* Вертикальный отступ между элементами */
+}
+
+/* Медиазапрос для планшетов */
 @media (min-width: 768px) {
     .skills-list {
         flex-direction: row; /* Меняем направление на ряд */
         flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
     }
-    
+
     .skills-list-item {
         flex: 0 1 calc(50% - 12px); /* Каждому элементу отводится 50% ширины с учетом отступов */
         margin-right: 24px; /* Отступ справа между элементами */
     }
-    
+
     .skills-list-item:nth-child(2n) {
         margin-right: 0; /* Убираем отступ у каждого второго элемента в строке */
     }
-}
-.skills-list {
-    display: flex; /* Используем Flexbox */
-    flex-direction: column; /* По умолчанию элементы располагаются в столбик */
-    gap: 72px; /* Вертикальный отступ между элементами */
 }
