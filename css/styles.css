@@ -601,13 +601,10 @@ color: #ffffff;
         row-gap: 72px;
         margin: 0;
     }
-    .section-second .skills-text {
-    text-align: left;
 
 }   
 .skills-list-item {
     width: calc((100% - 24px) / 2);
-}
 }
 .skills-list {
     flex-wrap: wrap;
