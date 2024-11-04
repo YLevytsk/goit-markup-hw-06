@@ -582,3 +582,6 @@ color: #ffffff;
     padding-left: 16px; /* Отступ слева */
     padding-right: 16px;
 }
+.skills-list {
+     margin-top: 24px; 
+}
