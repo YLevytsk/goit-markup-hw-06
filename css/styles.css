@@ -504,7 +504,7 @@ color: #4D5AE5;
    background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/dark-bg-mob.jpg);
+     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/dark-bg-mob.jpg);
      max-width: 320px;
 }
 
@@ -548,7 +548,7 @@ color: #ffffff;
 } 
 @media (min-width: 768px) { 
     .section_first {
-     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/dark-bg-tab.jpg);
+     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/dark-bg-tab.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 
