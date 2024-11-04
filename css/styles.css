@@ -598,7 +598,8 @@ color: #ffffff;
 @media (min-width: 768px) {
     .skills-list-item {
         grid-template-columns: repeat(2, 1fr);
-        gap: 72px 24px;/* Две колонки по 1fr */
+        column-gap: 24px;
+        row-gap: 72px;
     }
 }
 .skills-list {
