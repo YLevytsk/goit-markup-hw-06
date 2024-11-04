@@ -602,6 +602,10 @@ color: #ffffff;
         margin: 0;
     }
     .section-second .skills-text {
-    text-align: left; 
+    text-align: left;
+
 }   
+.skills-list-item {
+    width: calc((100% - 24px) / 2);
+}
 }
