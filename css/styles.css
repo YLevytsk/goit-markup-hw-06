@@ -571,4 +571,8 @@ color: #ffffff;
         font-size: 56px;
     } 
 }
-
+@media (max-width: 1157px) {
+    .icon-bg {
+        display: none;
+    }
+}
