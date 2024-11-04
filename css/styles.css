@@ -601,3 +601,6 @@ color: #ffffff;
         gap: 72px 24px;/* Две колонки по 1fr */
     }
 }
+.skills-list {
+    flex-wrap: wrap;
+}
