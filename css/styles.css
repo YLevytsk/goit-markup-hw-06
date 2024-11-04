@@ -517,7 +517,7 @@ color: #4D5AE5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 10px 20px; 
+    padding: 16px 32px; 
     cursor: pointer;
     border: none; 
     text-align: center;
@@ -534,4 +534,16 @@ color: #4D5AE5;
 .section_first {
      background-color: #2e2f42;
     } 
+ .section_title {
+font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+ line-height: 1.07;
+ margin-bottom:  48px;
+        
+}   
     
