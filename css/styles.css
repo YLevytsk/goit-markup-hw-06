@@ -576,3 +576,9 @@ color: #ffffff;
         display: none;
     }
 }
+
+.section-second {
+     margin-top: 96px; /* Отступ сверху от предыдущей секции */
+    padding-left: 16px; /* Отступ слева */
+    padding-right: 16px;
+}
