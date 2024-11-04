@@ -609,3 +609,6 @@ color: #ffffff;
     width: calc((100% - 24px) / 2);
 }
 }
+.skills-list {
+    flex-wrap: wrap;
+}
