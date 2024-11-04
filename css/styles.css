@@ -585,3 +585,13 @@ color: #ffffff;
 .skills-list-item{
      margin-top: 24px; 
 }
+.skills-title {
+   font-family: Roboto;
+    color: #2e2f42; 
+    letter-spacing: 0.02em;
+    margin-bottom: 8px; 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+}
