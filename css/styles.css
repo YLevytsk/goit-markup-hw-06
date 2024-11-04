@@ -536,13 +536,12 @@ color: #4D5AE5;
     } 
  .section_title {
 font-family: Roboto;
-font-size: 56px;
+font-size: 36px;
 font-weight: 700;
-line-height: 60px;
+line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
- line-height: 1.07;
  margin-bottom:  48px;
 
 } 
