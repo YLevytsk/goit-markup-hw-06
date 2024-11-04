@@ -596,7 +596,8 @@ color: #ffffff;
     text-align: center;
 }
 @media (min-width: 768px) {
-    .skills-list-item {
+    .skills-list {
+       flex-wrap: wrap;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
         row-gap: 72px;
