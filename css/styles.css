@@ -558,7 +558,13 @@ color: #ffffff;
  
     }
 } 
-  
+ @media (max-width: 768px) {
+    .icon-bg {
+        display: none;
+    }
+}
+
+
 @media screen and (min-width: 1158px) { 
     .section_first {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/dark-bg.jpg);
@@ -571,7 +577,7 @@ color: #ffffff;
         font-size: 56px;
     } 
 }
-@media screen and (min-width: 1158px) {
+media screen and (min-width: 1158px) {
     .icon-bg {
         display: none;
     }
