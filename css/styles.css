@@ -571,14 +571,12 @@ color: #ffffff;
         font-size: 56px;
     } 
 }
-@media screen and (max-width: 1157px) {
+@media screen and (min-width: 1157px) {
     .icon-bg {
         display: none;
     }
 }
-.icon-bg {
-    display: none;
-}
+
 .section-second {
      margin-top: 96px; 
     padding-left: 16px; 
