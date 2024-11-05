@@ -578,6 +578,9 @@ color: #ffffff;
         display: visible;
     }
 }
+   .icon-bg {
+        display: none;
+    }
 .icon-bg {
     display: flex;
     background-color: #F4F4FD;
