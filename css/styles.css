@@ -621,10 +621,14 @@ color: #ffffff;
         line-height: 120%;
     }
 
-    .skills-text {
-      font-weight: 400;
-      font-size: 16px;
-       line-height: 150%;
+.skills-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
     }
      .section-second{
         padding: 120px 0;
