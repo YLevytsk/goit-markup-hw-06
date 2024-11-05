@@ -630,23 +630,26 @@ color: #ffffff;
     text-align: center;
     color: #434455;
     }
-     .section-second{
-        padding: 120px 0;
-     }
-     .skills-list {
-       flex-wrap: nowrap; 
-     }
-     .icon-bg {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid;
-        border-radius: 4px;
-        width: 264px;
-        height: 112;
-        background-color: #f4f4fd;
-        margin-bottom: 8px;
-     }
+
+.section-second{
+    padding: 120px 0;
+    }
+
+.skills-list {
+    flex-wrap: nowrap; 
+    }
+
+.icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 264px;
+    height: 112;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+    }
 
 }
 .soc_nets_link {
