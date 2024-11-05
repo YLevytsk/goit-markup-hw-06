@@ -576,7 +576,9 @@ color: #ffffff;
         display: none;
     }
 }
-
+.icon-bg {
+ display: none;   
+}
 .section-second {
      margin-top: 96px; 
     padding-left: 16px; 
@@ -638,6 +640,14 @@ color: #ffffff;
 .skills-list {
     flex-wrap: nowrap; 
     }
+
+ .section-third {
+    text-align: center;
+    background-color: #F4F4FD;
+    padding: 120px 0;
+    }
+ }
+
  .team-title {
   font-family: Roboto;
   font-size: 36px;
@@ -648,7 +658,16 @@ color: #ffffff;
   color: #2e2f42;
   margin-bottom: 72px;
  }
+ 
+.team-item-title {
+    font-family: "Roboto", sans-serif; 
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 120%; 
+    color: #2e2f42;
+    margin-bottom: 8px;
 
+}
 .icon-bg {
     display: flex;
     align-items: center;
