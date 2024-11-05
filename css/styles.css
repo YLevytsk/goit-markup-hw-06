@@ -646,7 +646,15 @@ color: #ffffff;
     padding: 120px 0;
     }
  }
-
+.skills-text-w {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+    color: #434455; 
+    text-align: center;
+}
  .team-title {
   font-family: Roboto;
   font-size: 36px;
