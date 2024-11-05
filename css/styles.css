@@ -638,6 +638,16 @@ color: #ffffff;
 .skills-list {
     flex-wrap: nowrap; 
     }
+ .team-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+ }
 
 .icon-bg {
     display: flex;
@@ -650,6 +660,15 @@ color: #ffffff;
     background-color: #f4f4fd;
     margin-bottom: 8px;
     }
+.our-team-li {
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin: 72px 0 120px;
+    padding-bottom: 32px;
+    row-gap: 48px;
+    border-radius: 0px 0px 4px 4px;
+    
+}
 
 }
 .soc_nets_link {
@@ -672,10 +691,11 @@ color: #ffffff;
     display:flex;
     align-items:center;
     justify-content: center;
-    gap: 24px;
+
     transition: background-color 250mc (0.4, 0, 0.2, 1);
-    margin-top: 8px;
+    margin-top: 72px;
     padding-left: 0;
+     margin: 0;
 }
 .net_icon {
     fill: #f4f4fd;
@@ -687,8 +707,17 @@ color: #ffffff;
 .skills-list-item { 
     flex-basis: calc((100% - 3 * 24px) / 4); 
 }
-.worker-name {
-  flex-wrap: wrap;
-  flex-direction: column;
-  display: flex;
+.our-team-li {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    row-gap: 48px;
+    gap: 24px;
+    box-shadow:
+     0px 1px 6px rgba(46, 47, 66, 0.08), 
+     0px 1px 1px rgba(46, 47, 66, 0.16), 
+     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
