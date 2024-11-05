@@ -687,3 +687,8 @@ color: #ffffff;
 .skills-list-item { 
     flex-basis: calc((100% - 3 * 24px) / 4); 
 }
+.worker-name {
+  flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
