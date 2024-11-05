@@ -704,9 +704,7 @@ color: #ffffff;
 .soc_nets_link:focus {
  background-color: #404bbf;   
 } 
-.skills-list-item { 
-    flex-basis: calc((100% - 3 * 24px) / 4); 
-}
+
 .our-team-li {
     display: flex;
     flex-wrap: wrap; 
