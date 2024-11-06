@@ -888,8 +888,8 @@ border-radius: 0px 0px 4px 4px;
 }
 @media screen and (min-width: 768px) {
 
-    .section-fourth {
-        padding: 96px 0 120px 0;
+    .container-portfolio {
+    display: inline-block;
     }
 
     .our-portfolio-list {
@@ -898,7 +898,6 @@ border-radius: 0px 0px 4px 4px;
     gap: 64px 24px;
     flex-wrap: wrap;
 }
-    }
 
     .portfolio-item {
         width: calc((100% - 24px) / 2);
