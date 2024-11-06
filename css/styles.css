@@ -587,11 +587,12 @@ color: #ffffff;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
+    display: flex;
    }
 
 
-   .icon-bg {
-        display: none;
+.icon-bg {
+     display: none;
     }
 
 .section-second {
