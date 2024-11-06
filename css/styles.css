@@ -680,11 +680,6 @@ color: #434445;
     flex-wrap: nowrap; 
     }
 
- .section-third {
-    text-align: center;
-    background-color: #F4F4FD;
-    padding: 120px 0;
-    }
     .skills-list-item {
         width: calc((100%-72px) / 4);
     }
@@ -695,9 +690,7 @@ color: #434445;
 .section-third {
     text-align: center;
     background-color: #F4F4FD;
-    padding: 96px 0;
-
-     
+    padding: 96px 0;  
 }
 .worker-name {
     display: flex;
@@ -734,9 +727,9 @@ color: #434445;
 }
 
 .container-tim {
-max-width: 296px;
 display: inline-block;
 }
+
 .soc_nets {
     display: flex; /* Выстраиваем элементы в ряд */
     justify-content: space-between; /* Разделяем элементы по всей доступной ширине */
@@ -769,7 +762,6 @@ display: inline-block;
     font-weight: 500; 
     line-height: 120%; 
     color: #2e2f42;
-   
     text-align: center;
 }
 
@@ -803,3 +795,33 @@ display: inline-block;
  background-color: #404bbf;   
 } 
 
+@media screen and (min-width: 768px){
+    .our-team-li {
+      width: calc((100% - 24px) / 2);
+    }
+.our-team-list {
+     column-gap: 24px;
+    row-gap: 64px;
+     margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+   
+}
+}
+@media screen and (max-width: 1158px){
+    .our-team-li {
+    width: calc((100% - 72px) / 4);
+    }
+    .section-third {
+     padding: 120px 0;   
+    }
+.our-team-list {
+     flex-wrap: nowrap;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .our-team-list {
+     width: ;
+    }
+}
