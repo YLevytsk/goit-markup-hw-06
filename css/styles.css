@@ -798,17 +798,13 @@ display: inline-block;
 @media screen and (min-width: 768px){
     .our-team-li {
       width: calc((100% - 24px) / 2);
-    }
-.container-tim {
-     column-gap: 24px;
-    row-gap: 64px;
-     margin: 0;
-}
-.container-tim {
-    flex-wrap: wrap;
-    flex-direction: row;
+    }  
+
+.our-team-list {
     display: flex;
-   
+    flex-direction: row;
+    gap: 64px 24px;
+    flex-wrap: wrap;
 }
 }
 @media screen and (min-width: 1158px){
@@ -823,7 +819,7 @@ display: inline-block;
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-    .our-team-list {
+    .container-tim {
      width: 584px;
     }
 }
