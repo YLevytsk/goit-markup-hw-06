@@ -575,9 +575,19 @@ color: #ffffff;
 }
 @media screen and (min-width: 1158px) {
     .icon-bg {
-        display: block;
+    display: block;
+    display: flex;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border: #8E8F99 solid 1px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+   }
     }
-}
+
    .icon-bg {
         display: none;
     }
