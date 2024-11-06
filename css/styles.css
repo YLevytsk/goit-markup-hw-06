@@ -576,6 +576,9 @@ color: #ffffff;
 @media screen and (min-width: 1158px) {
     .icon-bg {
     display: block;
+   }
+    }
+    .icon-bg {
     display: flex;
     background-color: #F4F4FD;
     width: 264px;
@@ -586,12 +589,12 @@ color: #ffffff;
     justify-content: center;
     margin-bottom: 8px;
    }
-    }
+
 
    .icon-bg {
         display: none;
     }
-    
+
 .section-second {
      margin-top: 96px; 
     padding-left: 16px; 
