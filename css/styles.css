@@ -578,7 +578,14 @@ color: #ffffff;
 .icon-bg {
      display: none;
     }
-
+ .section-second {
+     margin-top: 96px; 
+    padding-left: 16px; 
+    padding-right: 16px;
+   }
+.skills-list-item{
+     margin-top: 24px; 
+   }
 @media screen and (min-width: 1158px) {
     .icon-bg {
     display: block;
@@ -597,14 +604,7 @@ color: #ffffff;
   .skills-list {
     flex-wrap: nowrap;
   }
-   .section-second {
-     margin-top: 96px; 
-    padding-left: 16px; 
-    padding-right: 16px;
-   }
-   .skills-list-item{
-     margin-top: 24px; 
-   }
+  
    .skills-title {
    font-family: Roboto;
     color: #2e2f42; 
@@ -614,6 +614,7 @@ color: #ffffff;
     font-size: 36px;
     line-height: 111%;
     text-align: center;
+}
 }
 @media screen and (min-width: 768px){
     .skills-list {
