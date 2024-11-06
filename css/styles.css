@@ -834,7 +834,8 @@ display: inline-block;
 .container-portfolio {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    flex-wrap: wrap;
+   padding: 96px;
 }
 .team-item-title {
     font-weight: 500;
@@ -892,9 +893,11 @@ border-radius: 0px 0px 4px 4px;
     }
 
     .our-portfolio-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 72px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+}
     }
 
     .portfolio-item {
