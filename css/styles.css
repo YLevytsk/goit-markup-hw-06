@@ -799,17 +799,19 @@ display: inline-block;
     .our-team-li {
       width: calc((100% - 24px) / 2);
     }
-.our-team-list {
+.container-tim {
      column-gap: 24px;
     row-gap: 64px;
      margin: 0;
+}
+.container-tim {
     flex-wrap: wrap;
     flex-direction: row;
     display: flex;
    
 }
 }
-@media screen and (max-width: 1158px){
+@media screen and (min-width: 1158px){
     .our-team-li {
     width: calc((100% - 72px) / 4);
     }
