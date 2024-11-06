@@ -575,7 +575,7 @@ color: #ffffff;
 }
 @media screen and (min-width: 1158px) {
     .icon-bg {
-        display: visible;
+        display: block;
     }
 }
    .icon-bg {
