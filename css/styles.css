@@ -703,14 +703,30 @@ color: #434445;
     display: flex;
     flex-direction: column; /* Выстраиваем карточки вертикально */
     gap: 8px;
+    margin-bottom: 32px;
 }
 .our-team-li {
     background-color: #FFFFFF;
     flex-direction: column;
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
-
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 428px;
 }
+.our-team-li {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow:
+     0px 1px 6px rgba(46, 47, 66, 0.08), 
+     0px 1px 1px rgba(46, 47, 66, 0.16), 
+     0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .our-team-list {
  display: flex;
     flex-direction: column; /* Выстраиваем карточки вертикально */
@@ -753,7 +769,7 @@ display: inline-block;
     font-weight: 500; 
     line-height: 120%; 
     color: #2e2f42;
-    margin-bottom: 8px;
+   
     text-align: center;
 }
 
@@ -787,17 +803,3 @@ display: inline-block;
  background-color: #404bbf;   
 } 
 
-.our-team-li {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    row-gap: 48px;
-    gap: 24px;
-    box-shadow:
-     0px 1px 6px rgba(46, 47, 66, 0.08), 
-     0px 1px 1px rgba(46, 47, 66, 0.16), 
-     0px 2px 1px rgba(46, 47, 66, 0.08);
-}
