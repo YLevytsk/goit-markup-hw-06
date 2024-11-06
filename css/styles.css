@@ -535,7 +535,7 @@ color: #4D5AE5;
      background-color: #2e2f42;
     } 
  .section_title {
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 111%;
@@ -584,13 +584,11 @@ color: #ffffff;
     padding-right: 16px;
    }
 .skills-list-item{
-     margin-top: 24px; 
+     margin-top: 72px; 
    }
-   .section-second{
-    padding: 96px;
-    }
-       .skills-title {
-   font-family: Roboto;
+ 
+ .skills-title {
+   font-family: "Roboto", sans-serif;
     color: #2e2f42; 
     letter-spacing: 0.02em;
     margin-bottom: 8px; 
@@ -598,6 +596,14 @@ color: #ffffff;
     font-size: 36px;
     line-height: 111%;
     text-align: center;
+}
+.skills-text {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434445;
 }
 @media screen and (min-width: 1158px) {
     .icon-bg {
@@ -624,8 +630,23 @@ color: #ffffff;
         row-gap: 72px;
         margin: 0;
     }
+    .skills-title {
+      text-align: left; 
+      font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+     color: #2E2F42;   
+    }
     .section-second .skills-text {
-    text-align: left; 
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
   
 .skills-list-item {
@@ -648,7 +669,7 @@ color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
     }
@@ -658,9 +679,7 @@ color: #ffffff;
 .skills-list {
     flex-wrap: nowrap; 
     }
-    .skills-text {
-        font-weight: 400;
-    }
+
  .section-third {
     text-align: center;
     background-color: #F4F4FD;
@@ -670,17 +689,55 @@ color: #ffffff;
         width: calc((100%-72px) / 4);
     }
  }
+
+
+ /*  3  */
+.section-third {
+    text-align: center;
+    background-color: #F4F4FD;
+    padding: 96px 0;
+
+     
+}
+.worker-name {
+    display: flex;
+    flex-direction: column; /* Выстраиваем карточки вертикально */
+    gap: 8px;
+}
+.our-team-li {
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
+
+}
+.our-team-list {
+ display: flex;
+    flex-direction: column; /* Выстраиваем карточки вертикально */
+    gap: 72px;
+}
+
+.container-tim {
+max-width: 296px;
+display: inline-block;
+}
+.soc_nets {
+    display: flex; /* Выстраиваем элементы в ряд */
+    justify-content: space-between; /* Разделяем элементы по всей доступной ширине */
+    gap: 8px; /* Отступы между иконками */
+    padding: 0 16px; /* Отступы по бокам внутри контейнера */
+}
 .skills-text-w {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455; 
     text-align: center;
 }
  .team-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11111;
@@ -699,17 +756,6 @@ color: #ffffff;
     margin-bottom: 8px;
     text-align: center;
 }
-
-.our-team-li {
-    background-color: #FFFFFF;
-    flex-direction: column;
-    margin: 72px 0 120px;
-    padding-bottom: 32px;
-    row-gap: 48px;
-    border-radius: 0px 0px 4px 4px;
-    
-}
-
 
 .soc_nets_link {
     display: flex;
@@ -730,11 +776,7 @@ color: #ffffff;
 .soc_nets {
     display:flex;
     align-items:center;
-    justify-content: center;
-
     transition: background-color 250mc (0.4, 0, 0.2, 1);
-    margin-top: 72px;
-    padding-left: 0;
      margin: 0;
 }
 .net_icon {
