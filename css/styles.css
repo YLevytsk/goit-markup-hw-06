@@ -1103,3 +1103,9 @@ span {
         margin-right: 80px;
     }
 }
+@media (min-width: 768px) and (max-width: 1157px) {
+  .footer-social-container {
+    margin-top: 96px;
+    margin-right: 164px;
+  }
+}
