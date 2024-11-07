@@ -827,6 +827,7 @@ display: inline-block;
 
 .section-fourth {
     padding: 96px 0 120px 0;
+    justify-content: center;
   
 }
 .our-portfolio-item {
@@ -837,12 +838,7 @@ display: inline-block;
     flex-direction: column;
     gap: 48px;
 }
-.team-item-title {
-    text-align: left;
-}
-.skills-text {
-    text-align: left;
-}
+
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
