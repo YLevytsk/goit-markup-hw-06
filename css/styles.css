@@ -894,7 +894,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 0;
 }
 .container-portfolio {
-     justify-content: center; /* центрирует по горизонтали */
+     justify-content: center; 
     align-items: center;
 }
   
@@ -903,7 +903,7 @@ border-radius: 0px 0px 4px 4px;
     flex-direction: row;
     gap: 64px 24px;
     flex-wrap: wrap;
-     justify-content: center; /* центрирует по горизонтали */
+     justify-content: center; 
     align-items: center;
 }
     .portfolio-item {
