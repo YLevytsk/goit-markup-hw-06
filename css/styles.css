@@ -982,3 +982,69 @@ span {
 .container-footer .soc_nets_link:focus { 
  background-color: #31d0aa;
 }
+.subscribe-form{
+     font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.modal-email {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 288px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.email-button {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    width: 165px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    text-align: center;
+    cursor: pointer;
+}
+.send-email {
+    fill: #FFFFFF;
+    margin-left: 16px;
+}
+@media screen and (max-width: 767px) {
+   .container-footer {
+    text-align: center;
+     margin-bottom: 72px;
+   }
+   .footer-social-container {
+     margin-bottom: 72px;
+   }
+   .footer-text {
+    text-align: center;
+   }
+   .subscribe-form {
+     text-align: center;
+   }
+   .social-futer {
+    justify-content: center;
+   }
+   .email-button {
+     margin: 16px auto 0 auto;
+   }
+}
