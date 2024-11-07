@@ -887,11 +887,15 @@ border-radius: 0px 0px 4px 4px;
     border-top: none;
 }
 @media screen and (min-width: 768px) {
+
   .portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
 
 .team-item-title {
+    text-align: left;
+}
+.skills-text {
     text-align: left;
 }
     .our-portfolio-list {
