@@ -828,7 +828,7 @@ display: inline-block;
 .section-fourth {
     padding: 96px 0 120px 0;
     justify-content: center;
-  
+    align-items: center; 
 }
 .our-portfolio-item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -838,7 +838,10 @@ display: inline-block;
     flex-direction: column;
     gap: 48px;
 }
-
+.container-portfolio {
+    justify-content: center;
+    align-items: center; 
+}
 .team-item-title-p {
     font-weight: 500;
     font-size: 20px;
