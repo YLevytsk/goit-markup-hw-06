@@ -902,8 +902,8 @@ border-radius: 0px 0px 4px 4px;
 .container-portfolio {
      justify-content: center; /* центрирует по горизонтали */
     align-items: center;
-     transform: translate(-50%, -50%);
 }
+    
 
     .our-portfolio-list {
     display: flex;
