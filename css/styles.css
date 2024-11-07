@@ -890,9 +890,7 @@ border-radius: 0px 0px 4px 4px;
   .portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
-    .container-portfolio {
-    display: inline-block;
-    }
+
 .team-item-title {
     text-align: left;
 }
@@ -902,12 +900,11 @@ border-radius: 0px 0px 4px 4px;
     gap: 64px 24px;
     flex-wrap: wrap;
 }
-
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
 }
-@media screen and (max-width: 1158px) {
+@media screen and (min-width: 1158px) {
 
     .section-fourth {
         padding: 120px 0;
