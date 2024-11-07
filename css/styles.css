@@ -933,3 +933,30 @@ border-radius: 0px 0px 4px 4px;
 
 
 /* futer*/
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 96px 0;
+}
+.footer-text {
+font-family: Raleway, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+ color: #FFFFFF;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
+     text-decoration: none; 
+}
+footer .logo_studio {
+    color: #F4F4FD;}
