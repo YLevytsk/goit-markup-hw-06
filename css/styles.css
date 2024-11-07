@@ -963,7 +963,8 @@ letter-spacing: 0.02em;
 }
 
  .social-media {
-    font-weight: 500; /* Определение жирности шрифта */
+    font-weight: 500;
+     flex-direction: row;/* Определение жирности шрифта */
 }  
  footer .logo_web {
     color: #4d5ae5;
@@ -1043,6 +1044,7 @@ span {
    }
    .social-futer {
     justify-content: center;
+    flex-direction: row;
    }
    .email-button {
      margin: 16px auto 0 auto;
@@ -1053,6 +1055,7 @@ span {
         display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
+        flex-direction: row;
     }
 
     .modal-email {
