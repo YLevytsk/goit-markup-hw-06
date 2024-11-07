@@ -958,7 +958,7 @@ letter-spacing: 0.02em;
     display: inline-block;
      text-decoration: none; 
 }
-footer .logo_studio {
+.footer .logo_studio {
     color: #F4F4FD;
 }
 
@@ -974,4 +974,11 @@ footer .logo_studio {
 .logo_web, 
 .logo_studio {
     display: inline-block; 
+}
+span { 
+    color: #f4f4fd;
+}
+.container-footer .soc_nets_link:hover,
+.container-footer .soc_nets_link:focus { 
+ background-color: #31d0aa;
 }
