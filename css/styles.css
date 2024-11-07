@@ -1048,3 +1048,42 @@ span {
      margin: 16px auto 0 auto;
    }
 }
+@media screen and (min-width: 768px) {
+    .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .modal-email {
+        width: 264px;
+    }
+
+    .fild-email {
+        display: flex;
+        gap: 24px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .container-footer {
+        max-width: 584px;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
+    .container-footer {
+        flex-wrap: nowrap;
+        gap: unset;
+    }
+
+    .footer-logo {
+        margin-right: 120px;
+    }
+
+    .footer-social-container {
+        margin-right: 80px;
+    }
+}
