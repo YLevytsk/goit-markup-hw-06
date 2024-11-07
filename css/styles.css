@@ -894,7 +894,7 @@ border-radius: 0px 0px 4px 4px;
 }
 @media screen and (min-width: 768px) {
 
-  .portfolio-item:nth-last-child(-n+3) {
+.portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
 .container-portfolio {
@@ -902,7 +902,7 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
 }
   
-    .our-portfolio-list {
+.our-portfolio-list {
     display: flex;
     flex-direction: row;
     gap: 64px 24px;
@@ -910,7 +910,7 @@ border-radius: 0px 0px 4px 4px;
      justify-content: center; 
     align-items: center;
 }
-    .portfolio-item {
+ .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
 }
