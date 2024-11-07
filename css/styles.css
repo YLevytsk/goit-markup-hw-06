@@ -938,6 +938,18 @@ border-radius: 0px 0px 4px 4px;
     color: #F4F4FD;
     padding: 96px 0;
 }
+.footer-social-container {
+  margin-top: 72px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.social-futer {
+  margin-top: 16px;
+}
+.soc_nets_item:not(:last-child) {
+  margin-right: 16px;
+}
+
 .footer-text {
 font-family: Raleway, sans-serif;
 font-weight: 400;
@@ -1045,6 +1057,7 @@ span {
    .social-futer {
     justify-content: center;
     flex-direction: row;
+    display: flex;
    }
    .email-button {
      margin: 16px auto 0 auto;
