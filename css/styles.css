@@ -903,8 +903,7 @@ border-radius: 0px 0px 4px 4px;
      justify-content: center; /* центрирует по горизонтали */
     align-items: center;
 }
-    
-
+  
     .our-portfolio-list {
     display: flex;
     flex-direction: row;
