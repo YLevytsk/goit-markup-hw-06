@@ -959,4 +959,19 @@ letter-spacing: 0.02em;
      text-decoration: none; 
 }
 footer .logo_studio {
-    color: #F4F4FD;}
+    color: #F4F4FD;
+}
+
+ .social-media {
+    font-weight: 500; /* Определение жирности шрифта */
+}  
+ footer .logo_web {
+    color: #4d5ae5;
+    margin-bottom: 16px;
+    
+
+}
+.logo_web, 
+.logo_studio {
+    display: inline-block; 
+}
