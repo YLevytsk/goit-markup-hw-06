@@ -836,7 +836,12 @@ display: inline-block;
     flex-direction: column;
     gap: 48px;
 }
-
+.team-item-title {
+    text-align: left;
+}
+.skills-text {
+    text-align: left;
+}
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -892,12 +897,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 0;
 }
 
-.team-item-title {
-    text-align: left;
-}
-.skills-text {
-    text-align: left;
-}
+
     .our-portfolio-list {
     display: flex;
     flex-direction: row;
