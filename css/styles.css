@@ -846,6 +846,7 @@ display: inline-block;
     color: #2E2F42;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: left;
 }
 .portfolio-item {   
 
