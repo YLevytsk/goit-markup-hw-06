@@ -836,8 +836,6 @@ display: inline-block;
     display: flex;
     flex-direction: column;
     gap: 48px;
-    justify-content: center; /* центрирует по горизонтали */
-    align-items: center;
 }
 .team-item-title {
     text-align: left;
