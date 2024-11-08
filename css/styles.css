@@ -1112,12 +1112,16 @@ span {
         padding: 0 108px;
         gap: 72px 24px;
     }
-    .footer-block-logo {
+    footer-block-logo {
         margin-top: 96px;
         margin-left: 108px;
     }
     .form-conteiner {
         gap: 24px;
+        subscribe-form {
+        font-size: 24px;
+        margin-bottom: 16px; /* Отступ между заголовком и полем ввода */
+        text-align: center;
     }
 }
 
