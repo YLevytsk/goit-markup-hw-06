@@ -1104,6 +1104,7 @@ media screen and (max-width: 767px) {
     container-footer {
         display: flex;
         flex-wrap: wrap;
+         justify-content: flex-start;
 
     }
     .container-footer {
@@ -1130,6 +1131,7 @@ media screen and (max-width: 767px) {
      .footer-social-container {
        display: flex;
        gap: 24px;
+        
      }
 }
 
@@ -1153,6 +1155,7 @@ media screen and (max-width: 767px) {
          align-items: baseline;
          column-gap: 0;
          row-gap: 0;
+         
 
     }
 }
