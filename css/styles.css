@@ -1132,23 +1132,9 @@ span {
   left: 24px; /* Отступ от поля ввода */
 }
 }
-@media (min-width: 768px) and (max-width: 1157px){
-.footer-block-logo,
-.footer-social-container {
-  display: inline-block; /* Размещение в строку */
-  margin-right: 24px; /* Отступ между контейнерами */
-}
-.footer-social-container:last-child {
-  margin-right: 0; /* Убираем отступ после последнего контейнера */
-}
-}
-
-
 
 @media (min-width: 768px) and (max-width: 1157px) {
   .footer-social-container {
-    margin-top: 96px;
-    margin-right: 164px;
     flex-wrap: nowrap;
     justify-content: center;
   }
@@ -1178,6 +1164,9 @@ span {
     }
     .modal-email {
         margin-right: 24px; 
+    }
+    .footer-text-sm {
+      text-align: left;  
     }
     
 }
