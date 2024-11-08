@@ -1113,8 +1113,6 @@ span {
         gap: 72px 24px;
     }
     .footer-block-logo {
-        width: 264px;
-        height: 112px;
         margin-top: 96px;
         margin-left: 108px;
     }
@@ -1124,15 +1122,7 @@ span {
     }
 
 }
-media screen and (min-width: 768px)and (max-width: 1157px) {
-     .footer-block-logo,
-     .footer-social-container {
-       display: flex;
-       gap: 24px;
-      width: calc((100% - 24px) / 2);
-        
-     }
-}
+
 
 
 @media (min-width: 768px) and (max-width: 1157px) {
