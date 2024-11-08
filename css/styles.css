@@ -1073,7 +1073,7 @@ span {
     fill: #FFFFFF;
     margin-left: 16px;
 }
-media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
    .footer-block-logo {
     text-align: center;
      margin-bottom: 72px;
@@ -1096,26 +1096,17 @@ media screen and (max-width: 767px) {
      margin: 16px auto 0 auto;
    }
 }
-media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     container-footer {
         display: flex;
         flex-wrap: wrap;
-    
+
     }
     .container-footer {
         padding: 0 108px;
         gap: 72px 24px;
         width: calc((100% - 24px) / 2);
     }
-}
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-    .footer {
-     position: relative;
-    }
-
-    .container-footer {
-      width: 100%;
-      height: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 1157px) {
