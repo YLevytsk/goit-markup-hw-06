@@ -1110,7 +1110,6 @@ span {
     .container-footer {
         padding: 0 108px;
         gap: 72px 24px;
-        width: calc((100% - 24px) / 2);
     }
     .footer-block-logo {
         width: 264px;
@@ -1131,6 +1130,7 @@ span {
      .footer-social-container {
        display: flex;
        gap: 24px;
+      width: calc((100% - 24px) / 2);
         
      }
 }
