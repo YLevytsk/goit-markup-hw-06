@@ -1082,7 +1082,7 @@ span {
     text-align: center;
      margin-bottom: 72px;
    }
- .footer-social-container {
+   .footer-social-container {
      margin-bottom: 72px;
      justify-content: flex-start;
  }
@@ -1093,7 +1093,7 @@ span {
      text-align: center;
      justify-content: flex-start;
    }
- .social-futer {
+   .social-futer {
     justify-content: center;
  }
    .email-button {
@@ -1101,7 +1101,7 @@ span {
    }
 }
 @media screen and (min-width: 768px) {
-    container-footer {
+    .container-footer {
         display: flex;
         flex-wrap: wrap;
          justify-content: flex-start;
@@ -1144,11 +1144,10 @@ span {
          flex-direction: row;
          align-items: baseline;
          column-gap: 0;
-         row-gap: 0;
-         
+         row-gap: 0;     
 
     }
-      .footer-block-logo {
+    .footer-block-logo {
         margin-right: 120;
     }
     .footer-social-container {
