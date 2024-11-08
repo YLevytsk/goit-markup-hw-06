@@ -1118,11 +1118,34 @@ span {
     }
     .form-conteiner {
         gap: 24px;
-        subscribe-form {
-        font-size: 24px;
-        margin-bottom: 16px; /* Отступ между заголовком и полем ввода */
-        text-align: center;
     }
+
+    .subscribe-form {
+        margin-bottom: 16px; /* Отступ между заголовком и полем ввода */
+        text-align: left;
+    }
+    .fild-email {
+      position: relative;
+      display: flex;
+}
+    .email-form {
+    display: block;
+    margin-bottom: 16px;
+}
+    .email-button {
+  position: relative;
+  left: 24px; /* Отступ от поля ввода */
+}
+}
+@media (min-width: 768px) and (max-width: 1157px){
+.footer-block-logo,
+.footer-social-container {
+  display: inline-block; /* Размещение в строку */
+  margin-right: 24px; /* Отступ между контейнерами */
+}
+.footer-social-container:last-child {
+  margin-right: 0; /* Убираем отступ после последнего контейнера */
+}
 }
 
 
