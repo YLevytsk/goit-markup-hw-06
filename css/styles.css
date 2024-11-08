@@ -938,6 +938,10 @@ border-radius: 0px 0px 4px 4px;
     color: #F4F4FD;
     padding: 96px 0;
 }
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer-social-container {
   margin-top: 72px;
   margin-left: 40px;
