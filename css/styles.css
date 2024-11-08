@@ -1106,7 +1106,7 @@ span {
          align-items: flex-start;
          gap: 72px 24px;
     }
-    }
+    
     footer-block-logo {
         margin-top: 96px;
         margin-left: 108px;
@@ -1152,6 +1152,9 @@ span {
     flex-wrap: nowrap;
     justify-content: center;
   }
+   .conteiner-footer {
+    width: 584px;
+   }
  
 }
 
