@@ -1085,12 +1085,10 @@ span {
    .footer-social-container {
      margin-bottom: 72px;
      justify-content: flex-start;
+     text-align: left;
  }
-   .footer-text {
-    text-align: center;
-   }
+   
    .subscribe-form {
-     text-align: center;
      justify-content: flex-start;
    }
    .social-futer {
@@ -1108,9 +1106,6 @@ span {
          align-items: flex-start;
          gap: 72px 24px;
     }
-    .conteiner-footer {
-        padding: 0 108px;
-        gap: 72px 24px;
     }
     footer-block-logo {
         margin-top: 96px;
