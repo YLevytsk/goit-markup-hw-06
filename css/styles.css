@@ -963,9 +963,7 @@ border-radius: 0px 0px 4px 4px;
 .net_icon {
     fill: #F4F4FD;
 }
-.soc_nets_item:not(:last-child) {
-  margin-right: 16px;
-}
+
 .soc_nets_link {
     height: 40px;
     width: 40px;
@@ -1083,7 +1081,7 @@ span {
      margin-bottom: 72px;
    }
    .footer-social-container {
-     margin-bottom: 72px;
+    
      justify-content: flex-start;
      text-align: left;
  }
@@ -1107,9 +1105,8 @@ span {
          gap: 72px 24px;
     }
     
-    footer-block-logo {
-        margin-top: 96px;
-        margin-left: 108px;
+    .footer-text-sm {
+      text-align: left;  
     }
     .form-conteiner {
         gap: 24px;
@@ -1157,14 +1154,12 @@ span {
 
     }
     .footer-block-logo {
-        margin-right: 120;
+        margin-right: 120px;
     }
     .footer-social-container {
         margin-right: 80px;
     }
-    .modal-email {
-        margin-right: 24px; 
-    }
+   
     .footer-text-sm {
       text-align: left;  
     }
