@@ -1053,7 +1053,7 @@ span {
     color: #FFFFFF;
 }
 .email-button {
-      display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -1152,4 +1152,8 @@ span {
     .footer-social-container {
         margin-right: 80px;
     }
+    .modal-email {
+        margin-right: 24px; 
+    }
+    
 }
