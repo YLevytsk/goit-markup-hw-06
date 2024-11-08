@@ -1077,7 +1077,7 @@ span {
     fill: #FFFFFF;
     margin-left: 16px;
 }
-media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
    .footer-block-logo {
     text-align: center;
      margin-bottom: 72px;
