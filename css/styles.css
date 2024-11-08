@@ -1101,31 +1101,32 @@ span {
         gap: 72px 24px;
         flex-direction: row;
     }
-
     .modal-email {
         width: 264px;
     }
-
     .fild-email {
         display: flex;
         gap: 24px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1157px) {
   .footer-social-container {
     margin-top: 96px;
     margin-right: 164px;
+    flex-wrap: nowrap;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container-footer {
-        max-width: 584px;
+        max-width: 584px;   
     }
 }
+
 @media screen and (min-width: 1158px) {
     .footer {
-        padding: 100px 0;
+    padding: 100px 0;     
     }
    .subscribe-form{
      margin-top: 100px;
@@ -1139,18 +1140,16 @@ span {
     max-width: 264px; 
     margin-top: auto;
     margin-bottom: auto;
-  
   }
-
     .footer-logo {
         margin-right: 120px;
     }
-
     .footer-social-container {
         margin-right: 80px;
     }
 }
-@media (min-width: 768px) and (max-width: 1157px) {
+
+@media screen and (min-width: 768px) and (max-width: 1157px){
   .footer-social-container {
     margin-top: 96px;
     margin-right: 164px;
