@@ -1107,12 +1107,10 @@ span {
         gap: 72px 24px;
         width: calc((100% - 24px) / 2);
     }
-    .modal-email {
-        width: 264px;
-    }
-    .fild-email {
-        display: flex;
-        gap: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .container-footer {
+     width: 584px;
     }
 }
 
