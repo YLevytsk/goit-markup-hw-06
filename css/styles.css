@@ -943,6 +943,14 @@ border-radius: 0px 0px 4px 4px;
   margin-left: 40px;
   margin-right: 40px;
 }
+.footer-social-container {
+  text-align: center;
+}
+
+.footer-text-sm {
+  margin-bottom: 16px;
+}
+
 .social-futer {
     display: flex;
     gap: 16px;
@@ -1103,6 +1111,13 @@ span {
         gap: 24px;
     }
 }
+@media (min-width: 768px) and (max-width: 1157px) {
+  .footer-social-container {
+    margin-top: 96px;
+    margin-right: 164px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container-footer {
         max-width: 584px;
