@@ -1619,21 +1619,24 @@ modal-overlay {
     line-height: 1.17;
     display: flex;
     align-items: center;
+
     
+
 
 }
 .modal-action-button {
     margin: 0 auto;
 }
 .user-privacy-text{
-    color: #8E8F99
+    color: #8E8F99;
+    
 }
+
 .input-checkbox visually-hidden {
     flex-shrink: 0;
 }
 .checkbox-true {
     display: inline-flex;
-   
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -1668,7 +1671,10 @@ modal-overlay {
     margin: 0 auto;
 
 }
-
+.checkbox-true {
+    flex-shrink: 0;
+    display:inline-flex;
+}
 .input-checkbox visually-hidden:focus+.checkbox-form>.checkbox-true-svg {
     background-color: #4D5AE5;
     fill: #f4f4fd;
@@ -1734,8 +1740,9 @@ modal-overlay {
       height: 40px;
     }
     .user-privacy-text {
-        white-space: nowrap;
-      }
+      white-space: nowrap;
+      
+    }
 }
 
 @media screen and (min-width: 1158px) {
