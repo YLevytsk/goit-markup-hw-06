@@ -1620,15 +1620,13 @@ modal-overlay {
     display: flex;
     align-items: center;
 
-    
-
-
 }
 .modal-action-button {
     margin: 0 auto;
 }
 .user-privacy-text{
     color: #8E8F99;
+    display: inline;
     
 }
 
