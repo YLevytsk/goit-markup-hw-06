@@ -1619,7 +1619,15 @@ modal-overlay {
     line-height: 1.17;
 
 }
-
+.modal-action-button {
+    margin: 0 auto;
+}
+.user-privacy-text{
+    color: #8E8F99
+}
+.input-checkbox visually-hidden {
+    flex-shrink: 0;
+}
 .checkbox-true {
     display: inline-flex;
    
