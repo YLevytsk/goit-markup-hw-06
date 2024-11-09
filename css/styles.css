@@ -1388,6 +1388,7 @@ span {
 
 .modal {
     position: absolute;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     top: 50%;
