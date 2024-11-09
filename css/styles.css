@@ -1365,7 +1365,7 @@ span {
     pointer-events: auto;
 }
 
-.modal-overlay {
+.modal {
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
@@ -1404,7 +1404,7 @@ span {
     overflow-y: auto;
 }
 
-.modal-overlay:not(.is-open) .modal {
+.modal:not(.is-open) .modal {
     transform: translate(-50%, -50%) scale(1.5);
 }
 
