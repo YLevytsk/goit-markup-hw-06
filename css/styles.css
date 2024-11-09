@@ -1624,7 +1624,7 @@ modal-overlay {
 .modal-action-button {
     margin: 0 auto;
 }
-.user-privacy-text{
+#.user-privacy-text{
     color: #8E8F99;
     display: inline;
     
