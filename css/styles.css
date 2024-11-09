@@ -1722,6 +1722,9 @@ modal-overlay {
       width: 360px;
       height: 40px;
     }
+    .user-privacy-text {
+        white-space: nowrap;
+      }
 }
 
 @media screen and (min-width: 1158px) {
