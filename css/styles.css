@@ -1595,6 +1595,18 @@ modal-overlay {
     border: none;
     fill: #F4F4FD;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: o;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .backdrop:not(.is-open) .modal {
     transform: translate(-50%, -100%);
