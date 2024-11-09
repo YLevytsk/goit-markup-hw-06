@@ -1089,6 +1089,7 @@ button {
 
 .subscribe-form {
     text-align: center;
+    margin-top: ;
 }
 
 .social-futer {
@@ -1183,8 +1184,13 @@ span {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-
-
+.form-conteiner {
+    flex-direction: column;
+}
+.subscribe-form {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .modal-email {
     border: 1px solid #FFFFFF;
     border-radius: 4px;
