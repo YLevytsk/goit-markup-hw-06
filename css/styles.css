@@ -1218,7 +1218,6 @@ span {
     min-width: 165px;
     height: 40px;
     background-color: #4D5AE5;
-    text-align: center;
     cursor: pointer;
 }
 
@@ -1626,10 +1625,6 @@ modal-overlay {
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-
 }
 .modal-action-button {
     margin: 0 auto;
