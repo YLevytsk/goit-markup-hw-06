@@ -1710,6 +1710,15 @@ modal-overlay {
         width: 408px;
         min-height: 584px;
     }
+
+    .modal-input-comment {
+      width: 360px;
+      height: 120px;
+    }
+    .modal-input {                                                                                 
+      width: 360px;
+      height: 40px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
