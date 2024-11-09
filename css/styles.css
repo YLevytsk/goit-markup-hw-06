@@ -1632,7 +1632,7 @@ modal-overlay {
     
 }
 
-.input-checkbox visually-hidden {
+input-checkbox visually-hidden {
     flex-shrink: 0;
 }
 .checkbox-true {
