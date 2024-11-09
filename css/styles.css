@@ -1538,7 +1538,7 @@ modal-overlay {
 .modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 256px;
+
     height: 40px;
 }
 
@@ -1575,7 +1575,7 @@ modal-overlay {
 .modal-input-comment {
     outline: transparent;
     resize: none;
-    width: 256px;
+
 }
 
 .modal-input-comment {
