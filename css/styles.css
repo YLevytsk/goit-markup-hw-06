@@ -1669,7 +1669,7 @@ input-checkbox visually-hidden {
     margin: 0 auto;
 
 }
-.checkbox-true {
+#.checkbox-true {
     flex-shrink: 0;
     display:inline-flex;
 }
