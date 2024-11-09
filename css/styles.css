@@ -1617,10 +1617,12 @@ modal-overlay {
     letter-spacing: 0.04em;
     color: #8e8f99;
     line-height: 1.17;
+
 }
 
 .checkbox-true {
     display: inline-flex;
+   
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -1653,6 +1655,7 @@ modal-overlay {
 
 .checkbox-true-svg {
     margin: 0 auto;
+
 }
 
 .input-checkbox visually-hidden:focus+.checkbox-form>.checkbox-true-svg {
