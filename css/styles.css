@@ -550,16 +550,19 @@ button {
     padding: 72px 0;
     width: 100%;
     box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
-    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.section_first {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/dark-bg-1x.jpg);
+    max-width: 320px;
+    min-height: 432px;
+    padding: 72px 0;
 }
 
 @media screen and (min-resolution: 2dppx),
