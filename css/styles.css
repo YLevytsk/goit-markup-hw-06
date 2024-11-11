@@ -1343,14 +1343,10 @@ span {
 
     .email-form {
         display: block;
-        margin-bottom: 16px;
+
     }
 
-    .email-button {
-        position: relative;
-        left: 24px;
-        /* Отступ от поля ввода */
-    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1157px) {
