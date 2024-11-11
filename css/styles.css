@@ -691,13 +691,13 @@ button {
 }
 
 /* 2*/
-.icon-bg {
-    display: none;
+.section-second {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
-.section-second {
-    padding-left: 16px;
-    padding-right: 16px;
+.icon-bg {
+    display: none;
 }
 
 .skills-list-item {
