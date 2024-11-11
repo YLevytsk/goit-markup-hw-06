@@ -699,9 +699,10 @@ button {
     display: none;
 }
 
-.skills-list-item {
-    margin-bottom: 72px;
-    margin: 0;
+@media screen and (max-width: 767px) {
+    .skills-list-item:not(:last-child) {
+        margin-bottom: 72px;
+    }
 }
 
 .skills-title {
