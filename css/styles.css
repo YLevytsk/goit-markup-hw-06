@@ -646,6 +646,9 @@ button {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        max-width: 768px;
+        min-height: 436px;
+        padding: 112px 0;
     }
 
     .section_title {
@@ -673,11 +676,16 @@ button {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        max-width: 1440px;
+        min-height: 600px;
+        padding: 188px 0;
     }
 
     .section_title {
         font-weight: 700;
         font-size: 56px;
+        max-width: 496px;
+        margin-bottom: 48px;
     }
 }
 
