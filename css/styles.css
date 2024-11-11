@@ -1239,6 +1239,8 @@ span {
 
 .form-conteiner {
     flex-direction: column;
+    margin-bottom: 16px;
+
 
 }
 
