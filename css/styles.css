@@ -1125,7 +1125,7 @@ footer-social-container {
 
 .subscribe-form {
     text-align: center;
-    margin-top: ;
+
 }
 
 .social-futer {
@@ -1313,7 +1313,7 @@ span {
 
     .form-conteiner {
         gap: 24px;
-        margin-top: 72px;
+
 
     }
 
@@ -1329,7 +1329,7 @@ span {
 
     .fild-email {
         position: relative;
-        display: flex;
+        flex-direction: row;
     }
 
     .email-form {
@@ -1352,7 +1352,8 @@ span {
     }
 
     .conteiner-footer {
-        width: 584px;
+        max-width: 584px;
+        margin: 0 auto;
     }
 
 }
