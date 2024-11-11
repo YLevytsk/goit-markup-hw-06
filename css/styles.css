@@ -529,6 +529,8 @@ button {
     fill: #f4f4fd;
 }
 
+/*  1 section   */
+
 .section_first {
     display: flex;
     flex-direction: column;
@@ -556,7 +558,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-desk-2x.jpg);
 }
 
 .section_first .container {
