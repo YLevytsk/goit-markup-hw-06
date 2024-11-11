@@ -1105,6 +1105,7 @@ button {
 .container-footer {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .footer-social-container {
