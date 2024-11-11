@@ -692,8 +692,7 @@ button {
 
 /* 2*/
 .section-second {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 0;
 }
 
 .icon-bg {
@@ -701,7 +700,8 @@ button {
 }
 
 .skills-list-item {
-    margin-top: 72px;
+    margin-bottom: 72px;
+    margin: 0;
 }
 
 .skills-title {
