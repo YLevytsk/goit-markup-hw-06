@@ -431,6 +431,10 @@ button {
     text-decoration: none;
 }
 
+.address-mobil {
+    margin-bottom: 48px;
+}
+
 .contact-list-item-mobil:first-child {
     margin-bottom: 24px;
     /* Устанавливаем отступ снизу только для первого элемента */
