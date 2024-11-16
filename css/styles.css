@@ -841,7 +841,6 @@ section_first h1 {
 .worker-name {
     display: flex;
     flex-direction: column;
-    /* Выстраиваем карточки вертикально */
     gap: 8px;
     margin-bottom: 32px;
 }
