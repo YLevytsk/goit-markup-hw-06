@@ -861,7 +861,6 @@ section_first h1 {
 .our-team-list {
     display: flex;
     flex-direction: column;
-    /* Выстраиваем карточки вертикально */
     gap: 72px;
 }
 
